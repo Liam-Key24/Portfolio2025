@@ -1,0 +1,46 @@
+/* index.css (or main.css) */
+@import "tailwindcss";
+
+/* Fonts */
+@font-face {
+  font-family: 'Switzer';
+  src: url('./assets/fonts/Switzer-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gambarino';
+  src: url('./assets/fonts/Gambarino-Regular.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pencerio';
+  src: url('./assets/fonts/Pencerio-Hairline.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Switzer', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+}
+
+h1 {
+  font-family: 'Pencerio', serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2,h3,h4,h5,h6 {
+  font-family: 'Gambarino', serif;
+  margin: 0;
+  padding: 0;
+}
