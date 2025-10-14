@@ -11,7 +11,7 @@ export default function Nav() {
                     <Link to='/aboutPage' className='transition-transform ease-in-out duration-300 hover:-translate-y-1 hover:text-blue-500 md:text-sm'>
                         About
                     </Link>
-                    <Link to='/contact' className='transition-transform ease-in-out duration-300 hover:-translate-y-1 hover:text-blue-500 md:text-sm'>
+                    <Link to='/contactPage' className='transition-transform ease-in-out duration-300 hover:-translate-y-1 hover:text-blue-500 md:text-sm'>
                         Contact
                     </Link>
                 </div>

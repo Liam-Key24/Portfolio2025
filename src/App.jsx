@@ -7,6 +7,7 @@ import Footer from './components/footer'
 import LandingPage from './pages/landingpage';
 import ProjectPage from './pages/projectPage'; 
 import About from './pages/aboutPage';
+import Contact from './pages/contactPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/aboutPage" element={<About />} />
+        <Route path="/contactPage" element={<Contact />} />
         <Route path="/project/:id" element={<ProjectPage />} />
       </Routes>
       <Footer />
