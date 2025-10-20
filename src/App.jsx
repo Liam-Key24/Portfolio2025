@@ -1,6 +1,7 @@
 import './App.css';
 import './index.css';
 
+import ScrollToTop from "./components/ScrollTop.jsx";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Nav from './components/nav';
 import Footer from './components/footer'
@@ -11,7 +12,9 @@ import Contact from './pages/contactPage';
 
 function App() {
   return (
+    <>
     <Router>
+      <ScrollToTop />
       <Nav />
       <Routes>
         <Route path="/" element={<LandingPage />} />
@@ -21,6 +24,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+    </>
   );
 }
 

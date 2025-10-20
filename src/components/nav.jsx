@@ -8,10 +8,10 @@ export default function Nav() {
                 <HamburgerMenu className="md:hidden"/>
 
                 <div className="w-1/3 hidden md:flex justify-center items-center gap-5 md:text-lg lg:text-2xl cursor-pointer ">
-                    <Link to='/aboutPage' className='transition-transform ease-in-out duration-300 hover:-translate-y-1 hover:text-blue-500 md:text-sm'>
+                    <Link to='/aboutPage' className='transition-transform ease-in-out duration-300 hover:-translate-y-1 text-blue-300 hover:text-blue-500 md:text-sm'>
                         About
                     </Link>
-                    <Link to='/contactPage' className='transition-transform ease-in-out duration-300 hover:-translate-y-1 hover:text-blue-500 md:text-sm'>
+                    <Link to='/contactPage' className='transition-transform ease-in-out duration-300 hover:-translate-y-1 text-blue-300 hover:text-blue-500 md:text-sm'>
                         Contact
                     </Link>
                 </div>

@@ -1,31 +1,38 @@
-/* index.css (or main.css) */
+/* index.css */
 @import "tailwindcss";
 
-/* Fonts */
+/* 1. Local fonts (make sure paths are correct) */
 @font-face {
-  font-family: 'Switzer';
-  src: url('./assets/fonts/Switzer-Light.otf') format('opentype');
+  font-family: "Switzer";
+  src: url("./assets/fonts/Switzer-Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Gambarino';
-  src: url('./assets/fonts/Gambarino-Regular.otf') format('opentype');
+  font-family: "Gambarino";
+  src: url("./assets/fonts/Gambarino-Regular.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Pencerio';
-  src: url('./assets/fonts/Pencerio-Hairline.otf') format('opentype');
+  font-family: "Pencerio";
+  src: url("./assets/fonts/Pencerio-Hairline.otf") format("opentype");
   font-weight: 100;
   font-style: normal;
 }
 
+/* 2. Register Tailwind theme variable (new v4 syntax) */
+@theme {
+  --font-pencerio: "Pencerio", serif;
+  --font-switzer: "Switzer", sans-serif;
+  --font-gambarino: "Gambarino", serif;
+}
 
+/* 3. Base styles */
 body {
-  font-family: 'Switzer', sans-serif;
+  font-family: "Switzer", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -34,13 +41,13 @@ body {
 }
 
 h1 {
-  font-family: 'Pencerio', serif;
+  font-family: "Pencerio", serif;
   margin: 0;
   padding: 0;
 }
 
-h2,h3,h4,h5,h6 {
-  font-family: 'Gambarino', serif;
+h2, h3, h4, h5, h6 {
+  font-family: "Gambarino", serif;
   margin: 0;
   padding: 0;
 }

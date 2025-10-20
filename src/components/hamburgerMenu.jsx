@@ -33,16 +33,16 @@ export default function HamburgerMenu() {
           open ? "pointer-events-auto" : "pointer-events-none"
         }`}
       >
-        <Link to="/" onClick={closeMenu} className="text-2xl font-normal transition">
+        <Link to="/" onClick={closeMenu} className="text-2xl font-normal transition text-blue-500">
           Home
         </Link>
-        <Link to="/aboutPage" onClick={closeMenu} className="text-2xl font-normal transition">
+        <Link to="/aboutPage" onClick={closeMenu} className="text-2xl font-normal transition text-blue-500">
           About
         </Link>
-        <Link to="/projects" onClick={closeMenu} className="text-2xl font-normal transition">
+        <Link to="/projects" onClick={closeMenu} className="text-2xl font-normal transition text-blue-500">
           Projects
         </Link>
-        <Link to="/contact" onClick={closeMenu} className="text-2xl font-normal transition">
+        <Link to="/contact" onClick={closeMenu} className="text-2xl font-normal transition text-blue-500">
           Contact
         </Link>
       </motion.div>
