@@ -39,9 +39,6 @@ export default function HamburgerMenu() {
         <Link to="/aboutPage" onClick={closeMenu} className="text-2xl font-normal transition text-blue-500">
           About
         </Link>
-        <Link to="/projects" onClick={closeMenu} className="text-2xl font-normal transition text-blue-500">
-          Projects
-        </Link>
         <Link to="/contact" onClick={closeMenu} className="text-2xl font-normal transition text-blue-500">
           Contact
         </Link>

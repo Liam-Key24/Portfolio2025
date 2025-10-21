@@ -4,8 +4,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/',
-  plugins: [react(
-), tailwindcss(
-  )],
+  base: '/Portfolio2025/', // 👈 replace this with your actual GitHub repo name
+  plugins: [react(), tailwindcss()],
+  build: {
+    outDir: 'docs', // 👈 this tells Vite to build into /docs for GitHub Pages
+  },
 })

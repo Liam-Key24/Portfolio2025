@@ -1,4 +1,4 @@
-import aboutMe from "../data/aboutme"
+import aboutMe from "../data/aboutMe"
 import SocialLinks from "../components/socials"
 
 
