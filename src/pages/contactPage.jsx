@@ -1,7 +1,7 @@
 export default function ContactForm() {
   return (
     <form
-      action="https://formspree.io/f/mnngreyp" // replace with your Formspree endpoint
+      action="https://formspree.io/f/mnngreyp" 
       method="POST"
       className="h-screen w-screen flex flex-col justify-center items-center gap-16"
     >
